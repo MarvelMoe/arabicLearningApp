@@ -7,6 +7,7 @@
     <title>
         <?php echo $title; ?>
     </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
@@ -21,7 +22,7 @@
 
 
     <nav class=" navbar-default ">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs" aria-expanded="false">
@@ -54,3 +55,6 @@
             </div>
         </div>
     </nav>
+    <div class="container-fluid">
+       <div class="row">
+          <div class="col-md-12 ">
